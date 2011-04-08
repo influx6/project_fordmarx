@@ -1,0 +1,287 @@
+#top{
+height:auto;
+margin-bottom:15px;
+font-family: Prociono;
+}
+
+#middle{
+clear:both;
+background: #eeeeee;
+background:#f6f6f6;
+margin-bottom:30px;
+padding-top:10px;
+height:auto;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ font-family: Prociono;
+ box-shadow:0px 0px 3px #000;
+ -moz-box-shadow:0px 0px 3px #000;
+ -webkit-box-shadow:0px 0px 3px #000;
+}
+
+#bottom{
+margin-bottom:15px;
+ height:170px;
+border:1px solid #eeeeee;
+background:#eeeeee;
+background:#f6f6f6;
+padding:10px;
+font-family: Prociono;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ box-shadow:0px 0px 3px #000;
+ -moz-box-shadow:0px 0px 3px #000;
+ -webkit-box-shadow:0px 0px 3px #000;
+ 
+
+}
+
+#logo_menu{
+height:100px;
+}
+
+#logo_menu h1{
+margin-top:5px;
+float:left;
+font-family: League Gothic;
+font-size:4.0em;
+color:#C3C3C3;
+text-shadow:1px 1px 3px #000;
+}
+
+#logo_menu h1 span{
+ font-size:0.4em;
+}
+
+#logo_menu ul{
+float:right;
+margin-top:30px;
+}
+
+#logo_menu ul li{
+float:left;
+display:block;
+margin-left:30px;
+
+}
+
+#logo_menu ul li a{
+font-family: Prociono ,League Gothic,Helvetica;
+color:#fff;
+padding:3px 4px 4px 3px;
+font-size:0.95em;
+
+}
+
+#logo_menu ul li a:hover{
+/*background: #EF112F;*/
+border-bottom:3px solid #36B6BE;;
+color:#fff;
+}
+#logo_menu ul li a.active{
+color:#fff;
+border-bottom:3px solid #36B6BE;;
+ text-shadow:1px 1px 3px #000;
+}
+
+#site_desc{
+height:200px;
+}
+
+#sites_desc_flash{
+width:460px;
+height:100%;
+float:left;
+}
+
+#sites_desc_intro{
+width:500px;
+height:100%;
+float:left;
+font-family: Prociono;
+}
+
+#sites_desc_intro h2{
+margin-left:10px;
+ margin-bottom:5px;
+ color:#fff;
+ text-shadow:1px 1px 3px #000;
+}
+
+#sites_desc_intro p{
+ color:#fff;
+ text-shadow:0px 1px 1px #000;
+ font-size:0.85em;
+ width:460px;
+ height:180px;
+ margin-left:25px;
+}
+
+
+
+#product_slider{
+position: relative;
+width:100%;
+height:350px;
+overflow:auto;
+background: #000 url("../images/slider_strip2.png") repeat-y;
+margin-top: 10px;
+margin-bottom:30px;
+font-family: Prociono;
+position:relative;
+ box-shadow:0px 0px 3px #000;
+ -moz-box-shadow:0px 0px 3px #000;
+ -webkit-box-shadow:0px 0px 3px #000;
+}
+
+#slider_cover{
+width:3880px;
+position:relative;
+}
+
+#slider_cover ul{
+
+}
+
+#slider_cover ul li{
+width:970px;
+height:99%;
+float:left;
+display:block;
+overflow:hidden;
+
+}
+
+#slider_cover ul li img{
+float:left;
+height:240px;
+width:240px;
+margin-left:50px;
+margin-top:40px;
+padding:7px;
+background:#fff;
+
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ box-shadow:0px 0px 3px #000;
+ -moz-box-shadow:0px 0px 3px #000;
+ -webkit-box-shadow:0px 0px 3px #000;
+}
+
+#slider_cover ul li div{
+
+width:600px;
+height:250px;
+float:left;
+margin-left:20px;
+margin-top:40px;
+}
+
+#slider_cover ul li div h2{
+margin-bottom:20px;
+color:#222;
+margin-left:7px;
+}
+
+#slider_cover ul li div p{
+margin-left:20px;
+color:#222;
+}
+
+#service_desc{
+clear:both;
+height:180px;
+margin-bottom:10px;
+}
+
+#service_desc a{
+
+color:#222;
+font-size:1.2em;
+position:relative;
+left:45%;
+border:1px solid #1FACDE;
+padding:5px;
+background:#36B6BE;
+font-family: League Gothic, Helvetica;
+font-style:bold;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+}
+
+#service_desc a:hover{
+color:#fff;
+
+}
+
+#service_desc ul{
+margin-top:50px;
+}
+
+#service_desc ul li{
+
+width:320px;
+height:140px;
+float:left;
+}
+
+#service_desc ul li h3 {
+text-align:center;
+color:#222;
+cursor:pointer;
+
+}
+
+#service_desc ul li h3:hover{
+color:#1DC0D8;
+
+}
+
+#service_desc ul li p{
+font-size:0.85em;
+width:290px;
+color:#222;
+margin-left:15px;
+word-wrap: break-word;
+}
+
+
+
+#sitemaps{
+width:500px;
+float:left;
+margin-right:10px;
+}
+
+#site_info{
+float: left;
+width: 400px;
+}
+
+#site_info div{
+ width:200px; 
+ height:50px;
+ float:left;
+}
+
+#site_info  a:hover{
+color:#36B6BE;
+font-size:0.85em;
+}
+
+#sitemaps ul li a:hover{
+color:#36B6BE;
+}
+
+#sitemaps h4,#site_info h4{
+ margin-bottom: 6px;
+ font-size:0.9em;
+}
+
+#sitemaps ul li,#site_info a,#site_info p,#site_info div p{
+font-size:0.8em;
+}

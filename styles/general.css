@@ -1,0 +1,77 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+.stupid_table,table{
+color:#000;
+}
+
+th,tr,td,tbody{
+color:white;
+}
+
+stupid_table tbody,stupid_table tr,stupid_table td {
+border:0px solid #fff;
+}
+
+body{
+	background:#58BFD2;
+	background:#224B58;
+}
+
+#wrapper{
+width:969px;
+margin:0px auto;
+}
+
+.clear{
+ clear:both;
+}
+
+ul{
+list-style:none;
+
+}
+
+
+a,a:active,a:visited{
+text-decoration:none;
+
+color:#000;
+}
+
+@font-face{
+ font-family: Prociono;
+ src: url("../fonts/Prociono.otf");
+}
+
+.rounder{
+ border-radius: 3px;
+ -moz-border-radius: 3px;
+ -webkit-border-radius: 3px;
+}
+
+.right{
+background: url("../images/arrow-grey-rt-Shapes4FREE.png");
+width:36px;
+height:36px;
+position:absolute;
+cursor:pointer;
+top:45%;x;
+right:5px;
+}
+
+.left{
+background: url("../images/arrow-grey-lt-Shapes4FREE.png");
+width:36px;
+height:36px;
+position:absolute;
+top:45%;
+cursor:pointer;
+left:5px;
+}
+
+service_active{
+ color:#224B58;
+}

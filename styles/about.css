@@ -1,0 +1,82 @@
+#about_wrapper{
+ padding:10px;
+ height:auto;
+}
+
+#company_details{
+ 
+}
+
+#company_details div{
+margin-bottom:25px;
+}
+
+#company_details div h2{
+font-size: 2.0em;
+color:#224B58;
+}
+
+#company_details div h5{
+ font-style: normal;
+ font-weight: normal;
+ font-size: 1.0em;
+ margin-left:5px;
+ color:#224B58;
+}
+
+#company_details div h3{
+font-size: 1.7em;
+color:#224B58;
+}
+
+
+#company_details div h4{
+font-size: 1.3em;
+color:#224B58;
+}
+
+#company_details div ul{
+ margin-left:20px;
+ margin-bottom:5px;
+  color:#222;
+}
+
+#company_details div b{
+ font-size: 0.9em;
+  color:#222;
+}
+
+#company_details div p{
+ font-size: 1.0em;
+ margin-left:5px;
+ color:#222;
+}
+
+#company_address_details{
+ color:#222; 
+}
+
+#contact_form h3{
+color:#224B58;
+}
+
+#contact_form p{
+ margin:3px;
+  color:#222;
+}
+
+#contact_form input[type="text"]{
+  width: 250px;
+  height:20px;
+  border:1px solid #838383;
+  background: #fff;
+   border-radius: 3px;
+ -moz-border-radius: 3px;
+ -webkit-border-radius: 3px;
+  color:#222;
+}
+
+#contact_form textarea{
+  width: 250px;
+ color:#222;
+}
