@@ -85,9 +85,9 @@ float:left;
 }
 
 #product_select  div ul li,.product_extra_details ul li,#smallsubmersible ul li{
+margin: 10px;
 float:left;
 display: block;
-margin:10px;
 width:190px;
 height:180px;
 
@@ -112,7 +112,8 @@ position: relative;
 }
 
 #product_select  div ul li  h6,.product_extra_details ul li  h6,#smallsubmersible ul li  h6{
-font-size: 0.85em;
+font-family: Helvetica, Verdana, Arial, sans-serif;
+font-size: 0.8em;
 text-align: center;
 color:#fff;
 text-shadow:1px 1px 3px #000;

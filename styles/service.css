@@ -17,8 +17,9 @@ width:200px;
 }
 
 #touch_bar h3{
+text-shadow: 1px 1px 2px #171717;
 font-family: "Arial Narrow";
-color:#000;
+color: #4a93a9;
 font-size: 2.5em;
 margin-top:40px;
 margin-left:10px;
@@ -30,7 +31,7 @@ margin-bottom:5px;
 #project_service_list ul,#event_service_list ul{
 
  float:left;
- background: #101010;
+ background: #333333;
  width:880px;
  height:auto;
  margin-left:20px;
@@ -39,7 +40,10 @@ margin-bottom:5px;
 }
 
 #project_service_list ul li,#event_service_list ul li{
- margin:10px;
+margin-left: 10px;
+margin-bottom: 17px;
+margin-right: 10px;
+margin-top: 10px;
 width:200px;
 height:170px;
 float:left;
@@ -62,6 +66,7 @@ border:1px solid #fff;
 }
 
 #project_service_list ul li h6,#event_service_list ul li h6{
+font-family: Helvetica, Verdana, Arial, sans-serif;
 font-size: 0.9em;
 text-align: center;
 color:#fff;
