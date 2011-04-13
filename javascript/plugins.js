@@ -1,3 +1,5 @@
+
+
   (function($){
     $.fn.slide = function(left,right,speed,cover){
         var enabler = true;
@@ -18,12 +20,13 @@
        var animated = false;
        
         
+        if (animated == false){
        function cycles(a) {
           var myintervals = null;
          if(a){
           myinterval = setInterval(function(){
             right.trigger('click');
-          },6000);
+          },5000);
           }
           else{
            clearInterval(myinterval);
@@ -76,7 +79,7 @@
            
          }
        });
-       
+       }
       
     }
     

@@ -1,6 +1,7 @@
 *{
 margin:0px;
 padding:0px;
+
 }
 
 .stupid_table,table{
@@ -18,6 +19,7 @@ border:0px solid #fff;
 body{
 	background:#58BFD2;
 	background:#224B58;
+	
 }
 
 #wrapper{
@@ -74,4 +76,101 @@ left:5px;
 
 service_active{
  color:#224B58;
+}
+
+#back_button{
+position:fixed;
+ top:0px;
+ right:10px;
+}
+
+#reset_button{
+position:fixed;
+ right:10px;
+ top:10px;
+}
+
+#reset_button,#back_button{
+ border:1px solid #222;
+ width:150px;
+ 
+ background: #222;
+ color:#fff;
+}
+
+#reset_button a,#back_button a{
+ color:#fff;
+}
+
+#modal_window{
+ background: url("../images/contentPattern.png");
+ position:absolute;
+ z-index:3000;
+ 
+}
+
+#modal_detail{
+ position: relative;
+ top:20px;
+ margin-left:100px;
+ 
+}
+
+#modal_detail div{
+
+ }
+.shower_core{
+ display:none;
+}
+
+#modal_closer{
+ font-size: 1.3em;
+ font-family: helvetica;
+ color: #fff;
+ background-color: #000;
+ border:1px solid #222;
+ padding:3px;
+ position: absolute;
+ right:30px;
+ top:30px;
+ z-index:8000;
+ cursor:pointer;
+}
+
+#see_more{
+position:absolute;
+bottom:10px;
+cursor:pointer;
+left:47%;
+padding:5px;
+}
+
+#modal_images{
+background:#222;
+padding:3px;
+margin-bottom:2px;
+box-shadow:0px 0px 3px #000;
+-moz-box-shadow:0px 0px 3px #000;
+-webkit-box-shadow:0px 0px 3px #000;
+position: relative;
+top:30px;
+
+ border-radius: 3px;
+ -moz-border-radius: 3px;
+ -webkit-border-radius: 3px; 
+ cursor:pointer;
+ }
+
+#see_more a{
+opacity:0.4;
+}
+#see_more a:hover{
+ opacity:1;
+
+}
+
+#modal_closer:hover{
+  
+	color: #b50000;
+  
 }

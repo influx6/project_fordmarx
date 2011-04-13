@@ -5,50 +5,50 @@ width:959px;
 }
 
 #product_wrapper_closet{
- width:100%;
- height:1500px;
- overflow: auto;
+ width:98%;
+ height:auto;
  padding:0px;
  margin-bottom:10px;
 }
 
 .product_select_details div{
-
 border:1px solid #000;
 }
 
-.product_desc_shown,.product_extra_details, #product_select div{
 
+.product_desc_shown2,.product_desc_shown,.product_extra_details, #product_select div{
+ position: relative;
+ 
  overflow:hidden;
  width:868px;
  min-height:100px;
  margin-left:30px;
  margin-top:5px;
  margin-bottom: 25px;
- background: #222;
+ background: #101010;
  border-radius: 5px;
  -moz-border-radius: 5px;
  -webkit-border-radius: 5px;
  
 }
 
-.product_desc_shown p,.product_extra_details p, #product_select p{
-  font-size:0.9em;
+.product_desc_shown2 p,.product_desc_shown p,.product_extra_details p, #product_select p{
+  font-size:0.95em;
 }
 
-.product_desc_shown div h3{
+.product_desc_shown2 div h3,.product_desc_shown div h3{
  margin-bottom: 5px;
- 
+ font-size:3.5em;
 }
 
-.product_desc_shown h2,.product_extra_details h2,#product_select  div h2{
+.product_desc_shown2 h2,.product_extra_details h2,#product_select  div h2{
  margin:0px;
  padding:4px;
  padding-left:10px;
  background: #36B6BE;
  font-family: Helvetica;
  font-size: 1.0em;
- width:460px;
+
  height:auto;
  cursor:pointer;
 color:#0D4C4F;
@@ -80,60 +80,113 @@ color:#0D4C4F;
 
 
 
-#smallsubmersible ul,#centrifgal_pumps ul,#product_select  div ul{
+#smallsubmersible ul,.product_extra_details ul,#product_select  div ul{
 float:left;
 }
 
-#product_select  div ul li,#centrifgal_pumps ul li,#smallsubmersible ul li{
+#product_select  div ul li,.product_extra_details ul li,#smallsubmersible ul li{
 float:left;
 display: block;
 margin:10px;
 width:190px;
-height:175px;
+height:180px;
 
-
+cursor:pointer;
 }
 
-#product_select  div ul li a img,#centrifgal_pumps ul li a img,#smallsubmersible ul li img{
-background:#fff;
+#product_select  div ul li a img,.product_extra_details ul li a img,#smallsubmersible ul li a img{
+background:#aeaeae;
 height:150px;
 width:170px;
-padding:2px;
+padding:3px;
 color:#fff;
 margin-bottom:2px;
  box-shadow:0px 0px 3px #000;
  -moz-box-shadow:0px 0px 3px #000;
  -webkit-box-shadow:0px 0px 3px #000;
-
+position: relative;
  border-radius: 3px;
  -moz-border-radius: 3px;
  -webkit-border-radius: 3px; 
+ cursor:pointer;
 }
 
-#product_select  div ul li h6,#centrifgal_pumps ul li h6,#smallsubmersible ul li h6{
-font-size: 0.9em;
+#product_select  div ul li  h6,.product_extra_details ul li  h6,#smallsubmersible ul li  h6{
+font-size: 0.85em;
 text-align: center;
 color:#fff;
 text-shadow:1px 1px 3px #000;
 }
 
+.product_desc_shown2{
+padding:5px;
+color:#fff;
+ box-shadow:0px 0px 3px #000;
+ -moz-box-shadow:0px 0px 3px #000;
+ -webkit-box-shadow:0px 0px 3px #000;}
+
 .product_desc_shown{
 padding:5px;
 color:#fff;
+display: none;
+ box-shadow:0px 0px 3px #000;
+ -moz-box-shadow:0px 0px 3px #000;
+ -webkit-box-shadow:0px 0px 3px #000;
 }
 
-#submersible_bowell_pump_motors ul li{
+#sbpm ul li{
+position: relative;
+ width:300px;
  cursor:pointer;
+ margin-top:6px;
+ margin-bottom:6px;
+ font-style:normal;
+ margin-left:10px;
 }
 
-#submersible_bowell_pump_motors ul li li{
-
+#sbpm ul li:hover{
+	color: #199aff;
+	 font-style:normal;
+     
 }
 
-#submersible_bowell_pump_motors ul li ul{
+#sbpm ul li ul{
+color:#fff;
 display:none;
+ font-style:normal;
+width:850px;
+margin-left:10px;
 }
 
-submersible_bowell_pump_motors ul li ul li ul{
-display:none;
+#sbpm ul li ul li{
+padding:10px;
+ font-style:normal;
+width:850px;
+}
+
+
+
+sbpm ul li:hover ul{
+color:#fff;
+background:#171717;
+
+display:block;
+ font-style:normal;
+
+}
+
+#sbpm ul li ul li:hover {
+ font-style:normal;
+ color:#fff;
+
+}
+
+#sbpm ul li ul li img{
+ margin-right:30px;
+ float:right;
+}
+
+
+#product_unseen_extras{
+ display: none;
 }

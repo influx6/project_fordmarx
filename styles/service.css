@@ -19,7 +19,6 @@ width:200px;
 #touch_bar h3{
 font-family: "Arial Narrow";
 color:#000;
-border-bottom:5px solid #222;
 font-size: 2.5em;
 margin-top:40px;
 margin-left:10px;
@@ -31,8 +30,9 @@ margin-bottom:5px;
 #project_service_list ul,#event_service_list ul{
 
  float:left;
- background: #222;
- width:860px;
+ background: #101010;
+ width:880px;
+ height:auto;
  margin-left:20px;
  margin-bottom:20px;
  padding:10px;
@@ -40,7 +40,7 @@ margin-bottom:5px;
 
 #project_service_list ul li,#event_service_list ul li{
  margin:10px;
-width:190px;
+width:200px;
 height:170px;
 float:left;
 display:block;
